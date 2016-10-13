@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# #
+
+d=`/bin/pwd`
+PYTHONPATH=$d:$d/2016-17/notebooks/lib:$PYTHONPATH jupyter notebook $*

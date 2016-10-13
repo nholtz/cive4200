@@ -1,0 +1,8 @@
+REM - Place this file in the root of your notebook folders
+
+REM - Double-click to run the jupyter notebook
+REM - the path will then include the root folder
+
+set PYTHONPATH=%cd%;%cd%\2016-17\notebooks\lib;%cd%\..\ca-steel-design\lib
+
+C:\Anaconda\Scripts\ipython.exe notebook
